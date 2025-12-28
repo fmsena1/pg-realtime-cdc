@@ -28,5 +28,25 @@ go.work.sum
 .env
 
 # Editor/IDE
-# .idea/
-# .vscode/
+.vscode/
+.idea/
+
+# Node.js dependencies e build
+node_modules/
+dist/
+
+# Backend build
+backend/app
+
+# Docker volumes e arquivos temporários
+pgdata/
+
+# Arquivos de log
+*.log
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ambiente virtual Python (se usar)
+venv/
